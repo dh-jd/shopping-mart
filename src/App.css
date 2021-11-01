@@ -1,0 +1,410 @@
+app {
+  background-color: ghostwhite!important;
+}
+
+/*=======================Customized CSS=======================*/
+
+.logo {
+  height:75px;
+  float: left;
+  width: 200px;
+  padding:12px 0px;
+  background: #575d6c;
+}
+.logo_container{
+  width: 40%;
+}
+img{
+  width: 75px;
+  vertical-align: middle;
+  border-style: none;
+}
+.ant-layout-header {
+  height: 75px !important;
+  color: rgba(0, 0, 0, 0)!important;
+  padding: 0 0!important;
+  line-height: 64px;
+  background: ghostwhite!important;
+}
+.ant-layout-footer {
+  padding: 24px 50px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  background: ghostwhite!important;
+}
+
+.ant-menu {
+  background: ghostwhite!important;
+}
+
+.site-layout-background{
+  height: 78vh;
+  background-color: white!important;
+  margin:10px 0px;
+}
+
+.ant-layout, .ant-layout * {
+  box-sizing: border-box;
+}
+.ant-layout {
+  background-color: ghostwhite!important;
+}
+.logo_container{
+  width: 200px;
+  height: 75px;
+  background-color: #575d6c;
+}
+.logoName {
+  font-size: x-large;
+  color: white;
+  background: #575d6c;
+  padding: 27px 11px 27px 0px;
+}
+
+.ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-item-active, .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-light .ant-menu-submenu-active, .ant-menu-light .ant-menu-submenu-title:hover {
+  color: ghostwhite!important;
+  background: #575d6c !important;
+}
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon, .ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  color: ghostwhite!important;
+}
+.ant-menu-item-selected{
+  color: ghostwhite!important;
+  background: #575d6c !important;
+}
+.ant-menu-submenu-selected{
+  color: ghostwhite!important;
+  background: #575d6c !important;
+}
+.ant-menu-submenu-selected .ant-menu-submenu-arrow{
+  color: ghostwhite!important;
+}
+
+.primary_btn{
+  color: ghostwhite !important;
+  background: #575d6c !important;
+  margin-right: 10px;
+}
+.ant-card-body{
+  padding: 0px!important;
+}
+.content {
+  display: block;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  padding: 25px 35px 35px;
+  cursor: pointer
+}
+.bg-white{
+  top: 50px;
+  right: 50px;
+  width: 540px;
+  background-color: rgba(255,255,255,0.9);
+  position: absolute;
+}
+.bg-transparent{
+  top: -14px;
+  left: -17px;
+  width: 540px;
+  position: absolute;
+}
+.bg-transparent-square{
+  top:0px;
+  left: 230px;
+  position: absolute;
+
+}
+.info {
+  display: block;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.title {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.subtitle {
+margin-left: 20px;
+  font-size: 1.6rem;
+  color: #575d6c !important;
+}
+
+.label{
+  padding: 0.2em 0.6em;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 3px;
+  line-height: 17px;
+}
+
+.label-primary{
+  background-color:#92ce51 !important;
+  padding: 10px;
+}
+.home-pants {
+  border-right: 8px solid #fff;
+  float: left;
+  height: 661px;
+  width: 33.3%;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  color: #333 !important;
+}
+.home-pants-image {
+  max-width: none;
+  border: 0;
+  height: 660px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 100%;
+  color: #333 !important;
+}
+.home-pants-span{
+  top: 0;left: 0;width: 80%;
+  background-color: transparent;
+  position: absolute;
+}
+
+
+.home-t-shirts{
+  display: table;
+  width: 66.7%;
+  background: #ffdd16;
+  height: 276px;
+}
+.home-t-shirts-image {
+  width: 60%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.home-t-shirts-content{
+  width: 386px;
+  float: right;
+}
+.blocks-promo  {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  margin-top: 20px;
+  width: auto;
+  margin-bottom: 16px;
+}
+.home-erin-span{
+  top: 0;left: 124px;width: 80%;
+  background-color: transparent;
+  position: absolute;
+  margin-top: -32px;
+}
+.home-performance {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  color: #333 !important;
+  float: right;
+}
+.bg-white-home-performance {
+  top: 7px;
+  width: 80%;
+  left:34px;
+  position: absolute;
+  padding: 0px 35px 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.home-erin-image-vRectangle{
+  top:0px;
+  left: 0px;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+
+}.home-erin-image-Rectangle {
+
+   top: 0px;
+   left: 0px;
+   height: 200px;
+   width: 640px;
+   position: absolute;
+ }
+.bg-transparent-Rectangle{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 640px;
+  padding-bottom: 43px;
+  background: gainsboro;
+
+}
+.footer{
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align:center;
+  z-index:1
+}
+/**/
+.flip-card {
+  background-color: transparent;
+  box-shadow:1px 1px 2px #888888;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+  border-radius: 10px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgba(203, 251, 255, 0.25);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.content-heading {
+  text-align: center;
+  margin: 10px 0 25px;
+}
+.color-box{
+  color: black;
+  display: inline-flex;
+  padding: 5px;
+  width:100%;
+justify-content: center;
+}
+
+.fil-color-box {
+  color: black;
+  padding: 10px;
+  margin-left: 30px;
+  justify-content: center;
+}
+.selected-color {
+  border: 3px solid #BADA55 !important;
+}
+.unselected-color {
+  border: 1px solid #BADA55 !important;
+}
+.selected-size {
+  border: 3px solid #BADA55 !important;
+}
+.unselected-size {
+  border: none !important ;
+}
+
+/* Define css class for global loading message to cover
+   screen during axios operations */
+
+.loading-indicator:before {
+  content: '';
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  width:85%;
+  height: 82.5%;
+  top: 75px;
+  left: 13%;
+  bottom: 64px;
+  z-index: 1000;
+}
+
+.loading-indicator:after {
+  background-image: url("gloader.gif");
+  height: 50%;
+  content: '';
+  position: fixed;
+  width: 25%;
+  top: 25%;
+  left: 35%;
+  z-index: 1001;
+  overflow: hidden;
+  text-align:center;
+  font-weight:bold;
+  font-size:1.5rem;
+}
+.bread-crumb-div{
+  margin:30px 30px 0px 30px ;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(248, 248, 255, 0.47);
+
+  box-shadow: 1px 1px 2px #888888;
+}
+.bread-crumb-navigate{
+  color:#575d6c;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.ant-drawer-body {
+  background-color: #eeeeee !important;
+}
+
+.fixed-widgets {
+  position: fixed;
+  right: 32px;
+  bottom: 102px;
+  z-index: 2147483640;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.fixed-widgets .fixed-widgets-avatar {
+  color: #000;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  transition: color .3s;
+  background: #575d6c;
+}
+.ant-avatar.ant-avatar-icon {
+  font-size: 52px !important;
+}
